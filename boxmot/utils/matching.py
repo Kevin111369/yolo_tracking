@@ -113,7 +113,7 @@ def iou_distance(atracks, btracks):
     if ious.size == 0:
         return ious
     _ious = iou_batch(atlbrs, btlbrs)
-    # print(_ious)
+    print(_ious)
 
     cost_matrix = 1 - _ious
 
